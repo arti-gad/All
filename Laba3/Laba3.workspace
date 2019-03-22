@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Laba3" Database="" Version="10.0.0">
+  <Project Name="Zadanie1" Path="Zadanie1/Zadanie1.project" Active="No"/>
+  <Project Name="Zadanie2" Path="Zadanie2/Zadanie2.project" Active="No"/>
+  <Project Name="Zadanie34" Path="Zadanie3/Zadanie3.project" Active="No"/>
+  <Project Name="Zadanie567" Path="Zadanie567/Zadanie567.project" Active="Yes"/>
+  <Project Name="NewZadanie34" Path="NewZadanie34/NewZadanie34.project" Active="No"/>
+  <Project Name="NewZadanie567" Path="NewZadanie567/NewZadanie567.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie567" ConfigName="Debug"/>
+      <Project Name="Zadanie34" ConfigName="Release"/>
+      <Project Name="Zadanie2" ConfigName="Debug"/>
+      <Project Name="Zadanie1" ConfigName="Debug"/>
+      <Project Name="NewZadanie34" ConfigName="Debug"/>
+      <Project Name="NewZadanie567" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie1" ConfigName="Release"/>
+      <Project Name="Zadanie2" ConfigName="Release"/>
+      <Project Name="Zadanie34" ConfigName="Release"/>
+      <Project Name="Zadanie567" ConfigName="Release"/>
+      <Project Name="NewZadanie34" ConfigName="Release"/>
+      <Project Name="NewZadanie567" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
