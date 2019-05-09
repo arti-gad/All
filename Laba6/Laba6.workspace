@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Laba6" Database="" Version="10.0.0">
+  <Project Name="Zadanie1" Path="Zadanie1/Zadanie1.project" Active="No"/>
+  <Project Name="Zadanie2" Path="Zadanie2/Zadanie2.project" Active="No"/>
+  <Project Name="Zadanie3" Path="Zadanie3/Zadanie3.project" Active="No"/>
+  <Project Name="Zadanie4" Path="Zadanie4/Zadanie4.project" Active="No"/>
+  <Project Name="Zadanie5" Path="Zadanie5/Zadanie5.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie1" ConfigName="Debug"/>
+      <Project Name="Zadanie2" ConfigName="Debug"/>
+      <Project Name="Zadanie3" ConfigName="Debug"/>
+      <Project Name="Zadanie4" ConfigName="Debug"/>
+      <Project Name="Zadanie5" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie1" ConfigName="Release"/>
+      <Project Name="Zadanie2" ConfigName="Release"/>
+      <Project Name="Zadanie3" ConfigName="Release"/>
+      <Project Name="Zadanie4" ConfigName="Release"/>
+      <Project Name="Zadanie5" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
