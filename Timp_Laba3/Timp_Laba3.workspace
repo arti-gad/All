@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Timp_Laba3" Database="" Version="10.0.0">
+  <Project Name="Zadanie1" Path="Zadanie1/Zadanie1.project" Active="No"/>
+  <Project Name="Zadanie2" Path="Zadanie2/Zadanie2.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie1" ConfigName="Debug"/>
+      <Project Name="Zadanie2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Zadanie1" ConfigName="Release"/>
+      <Project Name="Zadanie2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
