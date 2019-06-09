@@ -1,0 +1,15 @@
+\indexentry{cipher\+\_\+error@{cipher\+\_\+error}|hyperpage}{7}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}|hyperpage}{8}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}!decrypt@{decrypt}|hyperpage}{9}
+\indexentry{decrypt@{decrypt}!Swap\+Cipher@{Swap\+Cipher}|hyperpage}{9}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}!encrypt@{encrypt}|hyperpage}{9}
+\indexentry{encrypt@{encrypt}!Swap\+Cipher@{Swap\+Cipher}|hyperpage}{9}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Cipher\+Text@{get\+Valid\+Cipher\+Text}|hyperpage}{10}
+\indexentry{get\+Valid\+Cipher\+Text@{get\+Valid\+Cipher\+Text}!Swap\+Cipher@{Swap\+Cipher}|hyperpage}{10}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Key@{get\+Valid\+Key}|hyperpage}{10}
+\indexentry{get\+Valid\+Key@{get\+Valid\+Key}!Swap\+Cipher@{Swap\+Cipher}|hyperpage}{10}
+\indexentry{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Open\+Text@{get\+Valid\+Open\+Text}|hyperpage}{10}
+\indexentry{get\+Valid\+Open\+Text@{get\+Valid\+Open\+Text}!Swap\+Cipher@{Swap\+Cipher}|hyperpage}{10}
+\indexentry{main.\+cpp@{main.\+cpp}|hyperpage}{13}
+\indexentry{swapcipher.\+cpp@{swapcipher.\+cpp}|hyperpage}{14}
+\indexentry{swapcipher.\+h@{swapcipher.\+h}|hyperpage}{15}

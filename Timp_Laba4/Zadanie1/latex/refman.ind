@@ -1,0 +1,16 @@
+\begin{theindex}
+
+  \item {cipher\+\_\+error}, \hyperpage{7}
+
+  \indexspace
+
+  \item {encrypt}
+    \subitem {mod\+Alpha\+Cipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {mod\+Alpha\+Cipher}, \hyperpage{8}
+    \subitem {encrypt}, \hyperpage{8}
+  \item {mod\+Alpha\+Cipher.\+h}, \hyperpage{11}
+
+\end{theindex}

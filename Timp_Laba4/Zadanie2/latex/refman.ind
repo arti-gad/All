@@ -1,0 +1,39 @@
+\begin{theindex}
+
+  \item {cipher\+\_\+error}, \hyperpage{7}
+
+  \indexspace
+
+  \item {decrypt}
+    \subitem {Swap\+Cipher}, \hyperpage{9}
+
+  \indexspace
+
+  \item {encrypt}
+    \subitem {Swap\+Cipher}, \hyperpage{9}
+
+  \indexspace
+
+  \item {get\+Valid\+Cipher\+Text}
+    \subitem {Swap\+Cipher}, \hyperpage{10}
+  \item {get\+Valid\+Key}
+    \subitem {Swap\+Cipher}, \hyperpage{10}
+  \item {get\+Valid\+Open\+Text}
+    \subitem {Swap\+Cipher}, \hyperpage{10}
+
+  \indexspace
+
+  \item {main.\+cpp}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Swap\+Cipher}, \hyperpage{8}
+    \subitem {decrypt}, \hyperpage{9}
+    \subitem {encrypt}, \hyperpage{9}
+    \subitem {get\+Valid\+Cipher\+Text}, \hyperpage{10}
+    \subitem {get\+Valid\+Key}, \hyperpage{10}
+    \subitem {get\+Valid\+Open\+Text}, \hyperpage{10}
+  \item {swapcipher.\+cpp}, \hyperpage{14}
+  \item {swapcipher.\+h}, \hyperpage{15}
+
+\end{theindex}

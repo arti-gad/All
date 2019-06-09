@@ -1,0 +1,168 @@
+\hypertarget{classSwapCipher}{}\section{Класс Swap\+Cipher}
+\label{classSwapCipher}\index{Swap\+Cipher@{Swap\+Cipher}}
+
+
+Шифрование методом табличной перестановки  
+
+
+
+
+{\ttfamily \#include $<$swapcipher.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSwapCipher_a833505a4c3a4e35bd29221fdc0721479}\label{classSwapCipher_a833505a4c3a4e35bd29221fdc0721479}} 
+\hyperlink{classSwapCipher_a833505a4c3a4e35bd29221fdc0721479}{Swap\+Cipher} ()=delete
+\begin{DoxyCompactList}\small\item\em конструктор без параметров запрещен \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSwapCipher_ad13cc690789eb715e51b2dc6b002c494}\label{classSwapCipher_ad13cc690789eb715e51b2dc6b002c494}} 
+\hyperlink{classSwapCipher_ad13cc690789eb715e51b2dc6b002c494}{Swap\+Cipher} (const int key1)
+\begin{DoxyCompactList}\small\item\em конструктор для установки ключа \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classSwapCipher_adab0495fb3203c0214143969d9945573}{encrypt} (const std\+::string \&open\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Зашифровывание \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classSwapCipher_a198011fc3328030ef7c2493cd0b5abeb}{decrypt} (const std\+::string \&cipher\+\_\+text)
+\begin{DoxyCompactList}\small\item\em Дешифровывание \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSwapCipher_a7b86880b1a197343bcf65a395c2d3d2e}{get\+Valid\+Key} (const int \&key)
+\begin{DoxyCompactList}\small\item\em Проверка ключа на валидность \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classSwapCipher_aeee71718a56980b964abc32cda498a98}{get\+Valid\+Open\+Text} (const std\+::string \&s)
+\begin{DoxyCompactList}\small\item\em Проверка шифруемого текста \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classSwapCipher_a243f5c096f4cd4b0f4d4b7993fb082d6}{get\+Valid\+Cipher\+Text} (const std\+::string \&s)
+\begin{DoxyCompactList}\small\item\em Проверка дешифруемого текста \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSwapCipher_a2f19bca4df89af5479700ed57a976bb2}\label{classSwapCipher_a2f19bca4df89af5479700ed57a976bb2}} 
+int \hyperlink{classSwapCipher_a2f19bca4df89af5479700ed57a976bb2}{key\+\_\+stolbec}
+\begin{DoxyCompactList}\small\item\em ключ(количество столбцов матрицы) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSwapCipher_afdbad1d138089f2e2e6bcf40dc53e18f}\label{classSwapCipher_afdbad1d138089f2e2e6bcf40dc53e18f}} 
+int \hyperlink{classSwapCipher_afdbad1d138089f2e2e6bcf40dc53e18f}{key\+\_\+stroka}
+\begin{DoxyCompactList}\small\item\em количество строк матрицы \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSwapCipher_a784b1cc877aac8c85a4586c2e46f5906}\label{classSwapCipher_a784b1cc877aac8c85a4586c2e46f5906}} 
+std\+::wstring \hyperlink{classSwapCipher_a784b1cc877aac8c85a4586c2e46f5906}{real\+\_\+cp}
+\begin{DoxyCompactList}\small\item\em строка передающаяся в decrypt. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Шифрование методом табличной перестановки 
+
+Ключ устанавливается в конструкторе. Для зашифровывания и расшифровывания предназначены методы encrypt и decrypt. \begin{DoxyWarning}{Предупреждения}
+Реализация только для русского языка 
+\end{DoxyWarning}
+
+
+\subsection{Методы}
+\mbox{\Hypertarget{classSwapCipher_a198011fc3328030ef7c2493cd0b5abeb}\label{classSwapCipher_a198011fc3328030ef7c2493cd0b5abeb}} 
+\index{Swap\+Cipher@{Swap\+Cipher}!decrypt@{decrypt}}
+\index{decrypt@{decrypt}!Swap\+Cipher@{Swap\+Cipher}}
+\subsubsection{\texorpdfstring{decrypt()}{decrypt()}}
+{\footnotesize\ttfamily std\+::string Swap\+Cipher\+::decrypt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{cipher\+\_\+text }\end{DoxyParamCaption})}
+
+
+
+Дешифровывание 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em open\+\_\+text} & Закодированный текст. Не должен быть пустой строкой. Не должен быть единичной длины \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Зашифрованная строка 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classcipher__error}{cipher\+\_\+error},если} & текст пустой если текст еденичной длины если текст содержит пробелы \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classSwapCipher_adab0495fb3203c0214143969d9945573}\label{classSwapCipher_adab0495fb3203c0214143969d9945573}} 
+\index{Swap\+Cipher@{Swap\+Cipher}!encrypt@{encrypt}}
+\index{encrypt@{encrypt}!Swap\+Cipher@{Swap\+Cipher}}
+\subsubsection{\texorpdfstring{encrypt()}{encrypt()}}
+{\footnotesize\ttfamily std\+::string Swap\+Cipher\+::encrypt (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{open\+\_\+text }\end{DoxyParamCaption})}
+
+
+
+Зашифровывание 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em open\+\_\+text} & Открытый текст. Не должен быть пустой строкой. Не должен быть единичной длины Строчные символы автоматически преобразуются к прописным. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Зашифрованная строка 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classcipher__error}{cipher\+\_\+error},если} & текст пустой если текст еденичной длины если текст содержит пробелы \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classSwapCipher_a243f5c096f4cd4b0f4d4b7993fb082d6}\label{classSwapCipher_a243f5c096f4cd4b0f4d4b7993fb082d6}} 
+\index{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Cipher\+Text@{get\+Valid\+Cipher\+Text}}
+\index{get\+Valid\+Cipher\+Text@{get\+Valid\+Cipher\+Text}!Swap\+Cipher@{Swap\+Cipher}}
+\subsubsection{\texorpdfstring{get\+Valid\+Cipher\+Text()}{getValidCipherText()}}
+{\footnotesize\ttfamily std\+::string Swap\+Cipher\+::get\+Valid\+Cipher\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Проверка дешифруемого текста 
+
+Проверки на все исключения \char`\"{}выбрасываеые\char`\"{} методом decrypt 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em cipher\+\_\+text} & Зашифрованный текст. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classcipher__error}{cipher\+\_\+error},если} & текст пустой если текст еденичной длины если текст содержит пробелы \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classSwapCipher_a7b86880b1a197343bcf65a395c2d3d2e}\label{classSwapCipher_a7b86880b1a197343bcf65a395c2d3d2e}} 
+\index{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Key@{get\+Valid\+Key}}
+\index{get\+Valid\+Key@{get\+Valid\+Key}!Swap\+Cipher@{Swap\+Cipher}}
+\subsubsection{\texorpdfstring{get\+Valid\+Key()}{getValidKey()}}
+{\footnotesize\ttfamily void Swap\+Cipher\+::get\+Valid\+Key (\begin{DoxyParamCaption}\item[{const int \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Проверка ключа на валидность 
+
+Проверки на все исключения \char`\"{}выбрасываеые\char`\"{} конструктором 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em key} & Ключ. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classcipher__error}{cipher\+\_\+error}} & если ключ -\/ меньше нуля или ноль. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classSwapCipher_aeee71718a56980b964abc32cda498a98}\label{classSwapCipher_aeee71718a56980b964abc32cda498a98}} 
+\index{Swap\+Cipher@{Swap\+Cipher}!get\+Valid\+Open\+Text@{get\+Valid\+Open\+Text}}
+\index{get\+Valid\+Open\+Text@{get\+Valid\+Open\+Text}!Swap\+Cipher@{Swap\+Cipher}}
+\subsubsection{\texorpdfstring{get\+Valid\+Open\+Text()}{getValidOpenText()}}
+{\footnotesize\ttfamily std\+::string Swap\+Cipher\+::get\+Valid\+Open\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Проверка шифруемого текста 
+
+Проверки на все исключения \char`\"{}выбрасываеые\char`\"{} методом encrypt 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em open\+\_\+text} & Открытый текст. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classcipher__error}{cipher\+\_\+error},если} & текст пустой если текст еденичной длины если текст содержит пробелы \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{swapcipher_8h}{swapcipher.\+h}\item 
+\hyperlink{swapcipher_8cpp}{swapcipher.\+cpp}\end{DoxyCompactItemize}
